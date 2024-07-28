@@ -32,7 +32,7 @@ import numpy as np
 import pandas as pd
 
 # Carregar dados
-data = pd.read_csv('data/megasena_train.csv')
+data = pd.read_csv('data/megasena.csv')
 
 # Preprocessamento
 X = data.drop(columns=['date']).values
